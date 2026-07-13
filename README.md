@@ -4,6 +4,10 @@ Custom integration för Home Assistant som hämtar vattenkemi från [Pool Math](
 
 Allt konfigureras via UI – ingen YAML behövs.
 
+> [!NOTE]
+> **🤖 AI-genererat projekt**
+> Hela den här integrationen — kod, dokumentation och konfiguration — är genererad av en AI-assistent (Claude, Anthropic) utifrån instruktioner från en mänsklig utvecklare. Koden har granskats översiktligt för grundläggande korrekthet och säkerhet under utvecklingen, men har inte genomgått traditionell mänsklig kodgranskning eller omfattande produktionstestning. Använd på egen risk, testa i din egen miljö innan du litar på den, och rapportera gärna buggar eller konstigheter via [Issues](https://github.com/CrallH/Project-Poolmath-/issues).
+
 ## Sensorer
 
 Sensorer skapas automatiskt för de värden som finns i din pooldata:
