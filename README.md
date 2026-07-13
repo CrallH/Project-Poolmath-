@@ -4,6 +4,9 @@ Custom integration för Home Assistant som hämtar vattenkemi från [Pool Math](
 
 Allt konfigureras via UI – ingen YAML behövs.
 
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=CrallH&repository=Project-Poolmath-&category=integration)
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=poolmath)
+
 > [!NOTE]
 > **🤖 AI-genererat projekt**
 > Hela den här integrationen — kod, dokumentation och konfiguration — är genererad av en AI-assistent (Claude, Anthropic) utifrån instruktioner från en mänsklig utvecklare. Koden har granskats översiktligt för grundläggande korrekthet och säkerhet under utvecklingen, men har inte genomgått traditionell mänsklig kodgranskning eller omfattande produktionstestning. Använd på egen risk, testa i din egen miljö innan du litar på den, och rapportera gärna buggar eller konstigheter via [Issues](https://github.com/CrallH/Project-Poolmath-/issues).
@@ -37,12 +40,20 @@ Sensorer skapas automatiskt för de värden som finns i din pooldata:
 
 ## Installation via HACS
 
+Klicka på knappen nedan för att öppna HACS direkt i din egen Home Assistant med repot förifyllt:
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=CrallH&repository=Project-Poolmath-&category=integration)
+
+Eller manuellt:
+
 1. HACS → menyn (⋮) uppe till höger → **Custom repositories**
 2. Lägg till `https://github.com/CrallH/Project-Poolmath-` med typ **Integration**
 3. Sök efter **Project Poolmath** i HACS och installera
 4. Starta om Home Assistant
 
 ## Konfiguration
+
+[![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=poolmath)
 
 1. **Inställningar → Enheter & tjänster → Lägg till integration**
 2. Sök på **Project Poolmath**
